@@ -1,0 +1,120 @@
+.section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.grid_container {
+    transform: rotatey(-150);
+}
+.button {
+    border: 2px solid rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 30px 60px;
+    background: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: 0 2px 5px 0 #0003;
+    transition-duration: 0.5s;
+    display: black;
+    margin: 0 auto;
+}
+.section h1 {
+    text-align: center;
+    font-size: 6rem;
+    font-family:  'Kdam Thmor Pro', sans-serif;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 1;
+    color: #9b0000;
+}
+
+
+.section h2 {
+    font-family:'Kdam Thmor Pro', sans-serif;
+    color: #9b0000;
+}
+
+.video-container {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.image-container {
+    background-size:cover;
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;/* 
+    opacity: 0.8; */
+}
+
+.color-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+    opacity: 0.5;
+}
+
+.button {
+    font-size: medium;
+}
+
+input[type=button] {
+    border: 2px solid rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 30px 60px;
+    background: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: 0 2px 5px 0 #0003;
+    transition-duration: 0.5s;
+    display: black;
+    margin: 0 auto;
+}
+
+input[type=button2] {
+    border: 2px solid rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 30px 60px;
+    background: rgb(173, 173, 173);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 2px 5px 0 #0003;
+    margin: 0 auto;
+    text-align: center;
+    font-family:  'Kdam Thmor Pro', sans-serif;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 1;
+    color: #9b0000;
+    /* transition: 0.5s; */
+}
+
+input[type=button]:hover {
+    background: rgb(255, 0, 0);
+    color: white;
+}
+
+input[type=button2]:hover {
+    background: rgb(255, 0, 0);
+    color: white;
+}
