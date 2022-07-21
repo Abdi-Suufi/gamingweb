@@ -35,10 +35,26 @@
     color: #9b0000;
 }
 
-
 .section h2 {
     font-family:'Kdam Thmor Pro', sans-serif;
     color: #9b0000;
+}
+
+.section h3 {
+    text-align: center;
+    font-size: 6rem;
+    font-family:  'Kdam Thmor Pro', sans-serif;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 1;
+    color: #9b0000;
+    transform: translate(10%,-180%);
+}
+
+.section p{
+    position: absolute;
+    transform: translate(0%,0%);
 }
 
 .video-container {
@@ -77,10 +93,10 @@ html{ overflow-x: hidden; }
 }
 
 input[type=button] {
-    border: 2px solid rgb(255, 0, 0);
+    border: 3px solid rgb(255, 0, 0);
     color: rgb(0, 0, 0);
     cursor: pointer;
-    padding: 30px 60px;
+    padding: 150px 400px;
     background: white;
     border-radius: 4px;
     font-weight: bold;
@@ -111,6 +127,25 @@ input[type=button2] {
     /* transition: 0.5s; */
 }
 
+input[type=button3] {
+    border: 2px solid rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 2px 5px 0 #0003;
+    text-align: center;
+    font-family:  'Kdam Thmor Pro', sans-serif;
+    padding: 5px;
+    width: 125px;
+    z-index: 1;
+    opacity: 1;
+    color: #9b0000;
+    /* transition: 0.5s; */
+}
+
 input[type=button]:hover {
     background: rgb(255, 0, 0);
     color: white;
@@ -120,3 +155,9 @@ input[type=button2]:hover {
     background: rgb(255, 0, 0);
     color: white;
 }
+
+input[type=button3]:hover {
+    background: rgb(255, 0, 0);
+    color: white;
+}
+

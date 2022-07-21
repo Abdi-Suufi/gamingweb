@@ -1,28 +1,44 @@
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image" href="images/tab_icon.png">
-    <title>Up Your Gaming | Home</title>
+    <title>Up Your Gaming | Roulette</title>
 </head>
 
-
 <body>
+    <div class="grid_container2">
+        <input type="button2" value="Home" onclick="location.href='index.html';" class="w3-button w3-block w3-blue w3-border w3-border-white">
+        <input type="button2" value="cps" onclick="location.href='cps.html';">
+        <input type="button2" value="ReactionTest" onclick="location.href='reactionTest.html';">
+        <input type="button2" value="Roulette" onclick="location.href='roulette.html';">
+
+    </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
     <button id="spin">Spin</button>
     <span class="arrow"></span>
     <div class="container">
-        <div class="one">1</div>
-        <div class="two">2</div>
-        <div class="three">3</div>
-        <div class="four">4</div>
-        <div class="five">5</div>
-        <div class="six">6</div>
-        <div class="seven">7</div>
-        <div class="eight">8</div>
+        <div class="one">Vandal</div>
+        <div class="two">Phantom</div>
+        <div class="three">Guardian</div>
+        <div class="four">Bulldog</div>
+        <div class="five">Operator</div>
+        <div class="six">Sheriff</div>
+        <div class="seven">Frenzy</div>
+        <div class="eight">Judge</div>
     </div>
 
     <style>
+        .grid_container2 {
+            /* trial and error until matching height and length as the other pages */
+            transform: translate(-8.25%,-638%);
+        }
+
         * {
             box-sizing: border-box;
         }
@@ -30,7 +46,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #ffffff;
+            background-color: #b9b9b9;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -65,6 +81,9 @@
             font-family: sans-serif;
             color: #fff;
             left: 135px;
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            color: #ffffff;
+            
         }
 
         .container .one {
@@ -111,7 +130,7 @@
             position: absolute;
             top: 0;
             left: 50%;
-            transform: translateX(-50%);
+            transform: translate(2400%, 150%);
             color: rgb(85, 85, 85);
         }
 
@@ -124,7 +143,7 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(680%, -50%);
             z-index: 10;
             background-color: #e2e2e2;
             text-transform: uppercase;
@@ -142,16 +161,7 @@
         }
     </style>
 
-    <script>
-        let container = document.querySelector(".container");
-        let btn = document.getElementById("spin");
-        let number = Math.ceil(Math.random() * 5000);
-
-        btn.onclick = function () {
-            container.style.transform = "rotate(" + number + "deg)";
-            number += Math.ceil(Math.random() * 5000);
-        }
-    </script>
+    <script src="javascript/roulette.js"></script>
 
 </body>
 
