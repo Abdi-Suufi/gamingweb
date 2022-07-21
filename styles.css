@@ -59,6 +59,9 @@
     z-index: -1;/* 
     opacity: 0.8; */
 }
+/* Very OP scroll bar remover from stackoverflow lads*/
+html{ overflow-y: hidden; }
+html{ overflow-x: hidden; }
 
 .color-overlay {
     position: fixed;
@@ -92,17 +95,16 @@ input[type=button2] {
     border: 2px solid rgb(255, 0, 0);
     color: rgb(255, 255, 255);
     cursor: pointer;
-    padding: 30px 60px;
     background: rgb(173, 173, 173);
-    border-radius: 4px;
+    border-radius: 2px;
     font-weight: bold;
     font-size: 18px;
     box-shadow: 0 2px 5px 0 #0003;
     margin: 0 auto;
     text-align: center;
     font-family:  'Kdam Thmor Pro', sans-serif;
-    padding: 20px;
-    margin: 15px;
+    padding: 10px;
+    margin: 7.5px;
     z-index: 1;
     opacity: 1;
     color: #9b0000;
