@@ -7,7 +7,7 @@
     justify-content: center;
     overflow: hidden;
 }
-.grid_container {
+.navigation_bar {
     transform: rotatey(-150);
 }
 .button {
