@@ -7,9 +7,9 @@
     justify-content: center;
     overflow: hidden;
 }
-.navigation_bar {
+/* .navigation_bar {
     transform: rotatey(-150);
-}
+} */
 .button {
     border: 2px solid rgb(255, 0, 0);
     color: rgb(0, 0, 0);
@@ -43,7 +43,7 @@
 .section h3 {
     text-align: center;
     font-size: 6rem;
-    font-family:  'Kdam Thmor Pro', sans-serif;
+    font-family:'Kdam Thmor Pro', sans-serif;
     padding: 20px;
     margin: 15px;
     z-index: 1;
